@@ -1,0 +1,33 @@
+.h100 {
+    height: 100vh;
+    /* padding-top: 10vh; */
+}
+
+.screenContainer {
+    /* padding-top: 10vh; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.colorBlueWhite {
+    color: aliceblue;
+}
+.colorBlue {
+    color: skyblue;
+}
+.colorWhite {
+    color: white;
+}
+.headingText {
+    font-size: 50px;
+}
+.paragraph {
+    
+    margin-top: 50px;
+    padding: 50px;
+}
+.button {
+    margin: 10px;
+}

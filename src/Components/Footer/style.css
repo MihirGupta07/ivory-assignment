@@ -1,0 +1,36 @@
+.FooterContainer {
+    height: 500px;
+    /* border-top: 2px solid white; */
+    border-radius:  9px 9px 0 0;
+    
+    text-align: left;
+    
+    padding: 20px;
+    padding-top: 40px;
+
+    background-color: rgba(255, 255, 255, .9);
+}
+.footerHeading {
+    border-left: 4px solid salmon;
+    padding-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.footerText {
+    padding-left: 10px;
+
+}
+.footerItem {
+    margin-bottom: 30px;
+}
+.iconsList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.linkIcon {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}

@@ -1,0 +1,25 @@
+.orderedList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+.GameNameText {
+    font-size: larger;
+    text-decoration: underline;
+}
+.GameContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+    /* align-items: center; */
+}
+.playGameButton {
+    margin-top: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    font-weight: bold;
+
+    border: 2px solid skyblue;
+}
