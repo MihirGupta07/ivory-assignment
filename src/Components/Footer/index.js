@@ -3,9 +3,13 @@ import "./style.css"
 import imgg from "../../assets/ivory-logo-dark.png.png"
 import Reveal from '../Reveal'
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Button from '../Button';
+import { useModal } from '../Contexts/ModalContext';
 
 
 const Footer = () => {
+    const { toggleModal } = useModal();
+
     return (
         <div className='FooterContainer'>
             <div className='footerItem'>
@@ -31,6 +35,12 @@ const Footer = () => {
                         <a href='https://chat.whatsapp.com/DQLSZQOcIto7Fh9SXdK2qD' className='linkIcon'><FaWhatsapp /></a>
 
                     </div></Reveal>
+                
+            </div>
+            <div className='footerItem'>
+                <Reveal>
+                    <Button classes='colorWhite' buttonText='toggleModal' onClick={toggleModal}/>
+                </Reveal>
             </div>
 
         </div>
