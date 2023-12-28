@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import Reveal from '../Reveal'
 import Button from '../Button'
-import { Link, Element, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 
 

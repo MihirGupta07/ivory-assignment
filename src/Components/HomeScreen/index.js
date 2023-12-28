@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Screen1 from './Screen1'
 import "./style.css"
 import Screen2 from './Screen2'
-import { Link, Element, animateScroll as scroll } from 'react-scroll';
+import {Element} from 'react-scroll';
 import GameIframe from '../Iframe';
 import { GAME_LINKS } from '../../Constants';
 

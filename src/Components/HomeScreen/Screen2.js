@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "./style.css"
 import Reveal from '../Reveal'
-import Button from '../Button'
 import GameSelectorList from '../GameSelectorList'
 
 const Screen2 = ({ gameUrl, setGameUrl }) => {

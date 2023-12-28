@@ -3,7 +3,7 @@ import { GAME_DESC, GAME_LINKS, GAME_NAMES } from '../../Constants'
 import { motion } from "framer-motion"
 import "./style.css"
 import Reveal from '../Reveal'
-import { Link, Element, animateScroll as scroll } from 'react-scroll';
+import { Link} from 'react-scroll';
 import Button from '../Button'
 
 
